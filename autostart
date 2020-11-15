@@ -1,0 +1,69 @@
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+# You can set picom to use either xrender or glx
+# Change if issues
+
+# Gnome PolicyKit Authentication
+/usr/lib/polkit-1/polkitd --no-debug &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
+
+# Nitrogen
+nitrogen --restore &
+
+# Compositor
+#compton --config ~/.config/compton/compton.conf
+picom -f --config ~/.config/picom/picom.conf &
+
+# Sleep 4s
+sleep 4s
+
+# Panel
+tint2 -c ~/.config/tint2/tint2rc &
+~/.local/bin/wal-set.openbox &
+#polybar --config ~/.config/polybar/launch-pb.sh* &
+
+# Sleep 2s
+sleep 2s
+
+# Dunst
+dunst &
+
+# Dual Screens
+~/.screenlayout/dualscreenopenbox.sh &
+
+# Sleep 1s
+sleep 1s
+
+# Bluetooth
+#(blueberry-tray) &
+
+# install xcape - press super to get menu
+#xcape -e 'Super_L=Super_L|space'
+
+# Numlock - on laptops without seperate numeric keyboard put hashtag in front
+numlockx &
+
+# Sleep 1s
+sleep 1s
+
+# Turn on/off System Beep
+xset b off &
+
+# Enable Power Management
+xfce4-power-manager &
+
+# Clipboard Manager
+xfce4-clipman &
+
+# Xfce4 Settings
+xfsettingsd &
+
+# Conky
+#conky -c ~/.config/conky/conky.conf &
+conky -c ~/.conkyrc &
+
+# Session Manager
+#lxsession
