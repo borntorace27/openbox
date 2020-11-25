@@ -1,0 +1,256 @@
+!----------------------------------------------------------------------
+
+Xft.dpi: 96
+Xft.antialias: 1
+Xft.rgba: rgb
+Xft.autohint: 1
+Xft.lcdfilter: lcddefault
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+! Colors
+!----------------------------------------------------------------------
+!#include: "/home/josh/.config/termcolours/jellybeans"
+!#include: "/home/josh/.config/termcolours/hybrid"
+!#include: "/home/josh/.config/termcolours/base16-solarized.light"
+!#include: "/home/josh/.config/termcolours/hybrid_e7"
+!#include: "/home/josh/.config/termcolours/onedark"
+!#include: "/home/josh/.config/termcolours/s3r0"
+!#include: "/home/josh/.config/termcolours/nix_e7"
+!#include: "/home/josh/.config/termcolours/numix_theme"
+!#include: "/home/josh/.config/termcolours/spacemacs"
+!#include: "/home/josh/.config/termcolours/josh1"
+!#include: "/home/josh/.config/termcolours/archlinux"
+!#include: "/home/josh/.config/termcolours/idle_toes"
+!#include: "/home/josh/.config/wal/templates/colors.Xresources"
+!#include: "/home/josh/.cache/wal/colors.Xresources"
+! ------------------------------------------------------------
+Xcursor.theme: Adwaita
+
+Urxvt*depth: 32
+!Urxvt*background: rgba:0000/0000/0200/c900
+!URxvt*background: rgba:1111/1111/1111/dddd
+!URxvt.background: [90]#000000
+
+! Idle-Toes
+! special
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #a54242
+*.color9:       #cc6666
+
+! green
+*.color2:       #8c9440
+*.color10:      #b5bd68
+
+! yellow
+*.color3:       #de935f
+*.color11:      #f0c674
+
+! blue
+*.color4:       #5f819d
+*.color12:      #81a2be
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #707880
+*.color15:      #c5c8c6
+
+! Colors
+! bold, italic, underline
+!URxvt.colorBD: #B5BD68
+!URxvt.colorIT: #B294BB
+!URxvt.colorUL: #81A2BE
+
+! special
+!*.foreground:   #fcfcfc
+!*.background:   #282828
+!*.cursorColor:  #fcfcfc
+
+!*.foreground:   #ebdbb2
+!*.background:   #282828
+
+! black
+!*.color0:       #282828
+!*.color8:       #928374
+
+! red
+!*.color1:       #cc241d
+!*.color9:       #fb4934
+
+! green
+!*.color2:       #98971a
+!*.color10:      #b8bb26
+
+! yellow
+!*.color3:       #d79921
+!*.color11:      #fabd2f
+
+! blue
+!*.color4:       #458588
+!*.color12:      #83a598
+
+! magenta
+!*.color5:       #b16286
+!*.color13:      #d3869b
+
+! cyan
+!*.color6:       #689d6a
+!*.color14:      #8ec07c
+
+! white
+!*.color7:       #a89984
+!*.color15:      #ebdbb2
+
+! special
+!*.foreground:   #c5c8c6
+!*.background:   #1d1f21
+!*.cursorColor:  #c5c8c6
+
+! black
+!*.color0:       #282a2e
+!*.color8:       #373b41
+
+! red
+!*.color1:       #a54242
+!*.color9:       #cc6666
+
+! green
+!*.color2:       #8c9440
+!*.color10:      #b5bd68
+
+! yellow
+!*.color3:       #de935f
+!*.color11:      #f0c674
+
+! blue
+!*.color4:       #5f819d
+!*.color12:      #81a2be
+
+! magenta
+!*.color5:       #85678f
+!*.color13:      #b294bb
+
+! cyan
+!*.color6:       #5e8d87
+!*.color14:      #8abeb7
+
+! white
+!*.color7:       #707880
+!*.color15:      #c5c8c6
+
+URxvt*letterSpace: 0
+URxvt*font: xft:JetBrainsMonoMedium Nerd Font:style=Medium,Regular:pixelsize=14
+URxvt*boldFont: xft:JetBrainsMonoMedium Nerd Font:style=Medium,Regular:pixelsize=14
+URxvt*italicFont: xft:JetBrainsMonoMedium Nerd Font:style=Medium,Regular:pixelsize=14
+URxvt*bolditalicFont: xft:JetBrainsMonoMedium Nerd Font:style=Medium,Regular:pixelsize=14
+
+!URxvt*letterSpace: 0
+!URxvt*font: xft:DejaVuSansMono Nerd Font:style=Book:pixelsize=14
+!URxvt*boldFont: xft:DejaVuSansMono Nerd Font:style=Book:pixelsize=14
+!URxvt*italicFont: xft:DejaVuSansMono Nerd Font:style=Book:pixelsize=14
+!URxvt*bolditalicFont: xft:DejaVuSansMono Nerd Font:style=Book:pixelsize=14
+
+!URxvt*letterSpace: -1
+!URxvt*font: xft:SauceCodePro Nerd Font Mono:style=Regular:pixelsize=14
+!URxvt*boldFont: xft:SauceCodePro Nerd Font Mono:style=Regular:pixelsize=14
+!URxvt*italicFont: xft:SauceCodePro Nerd Font Mono:style=Regular:pixelsize=14
+!URxvt*bolditalicFont: xft:SauceCodePro Nerd Font Mono:style=Regular:pixelsize=14
+
+URxvt*scrollBar: false
+URxvt*urgentOnBell: true
+URxvt*visualBell: false
+URxvt*saveLines: 10000
+URxvt*mouseWheelScrollPage: false
+
+URxvt*inheritPixmap: true
+URxvt*transparent: true
+URxvt*shading: 15
+
+! Extensions ~/.urxvt/ext
+URxvt.perl-ext-common: default,clipboard,keyboard-select,url-select
+
+! Clipboard -> Ctr+Alt+C/V
+URxvt.keysym.C-S-C: perl:clipboard:copy
+URxvt.keysym.C-S-V: perl:clipboard:paste
+URxvt.keysym.C-S-W: perl:clipboard:paste_escaped
+!URxvt.clipboard.copycmd: xsel -ib
+!URxvt.clipboard.pastecmd: xsel -ob
+
+! Keyboard-select
+URxvt.keysym.C-Escape: perl:keyboard-select:activate
+URxvt.keysym.C-S-S: perl:keyboard-select:search
+
+! Url-select
+URxvt.keysym.C-S-U: perl:url-select:select_next
+URxvt.url-select.autocopy: true
+URxvt.url-select.button: 1
+URxvt.url-select.launcher: /usr/bin/firefox
+URxvt.url-select.underline: true
+
+! Reasigning keys for vim keys
+URxvt.keysym.S-Up             : \033[1;2A
+URxvt.keysym.S-Down           : \033[1;2B
+URxvt.keysym.S-Right          : \033[1;2C
+URxvt.keysym.S-Left           : \033[1;2D
+URxvt.keysym.S-Home           : \033[1;2H
+URxvt.keysym.S-End            : \033[1;2F
+URxvt.keysym.M-Up             : \033[1;3A
+URxvt.keysym.M-Down           : \033[1;3B
+URxvt.keysym.M-Right          : \033[1;3C
+URxvt.keysym.M-Left           : \033[1;3D
+URxvt.keysym.M-Page_Up        : \033[5;3~
+URxvt.keysym.M-Page_Down      : \033[6;3~
+URxvt.keysym.M-Home           : \033[1;3H
+URxvt.keysym.M-End            : \033[1;3F
+URxvt.keysym.M-S-Up           : \033[1;4A
+URxvt.keysym.M-S-Down         : \033[1;4B
+URxvt.keysym.M-S-Right        : \033[1;4C
+URxvt.keysym.M-S-Left         : \033[1;4D
+URxvt.keysym.M-S-Home         : \033[1;4H
+URxvt.keysym.M-S-End          : \033[1;4F
+URxvt.keysym.C-Up             : \033[1;5A
+URxvt.keysym.C-Down           : \033[1;5B
+URxvt.keysym.C-Right          : \033[1;5C
+URxvt.keysym.C-Left           : \033[1;5D
+URxvt.keysym.C-Page_Up        : \033[5;5~
+URxvt.keysym.C-Page_Down      : \033[6;5~
+URxvt.keysym.C-Home           : \033[1;5H
+URxvt.keysym.C-End            : \033[1;5F
+URxvt.keysym.C-S-Up           : \033[1;6A
+URxvt.keysym.C-S-Down         : \033[1;6B
+URxvt.keysym.C-S-Right        : \033[1;6C
+URxvt.keysym.C-S-Left         : \033[1;6D
+URxvt.keysym.C-S-Home         : \033[1;6H
+URxvt.keysym.C-S-End          : \033[1;6F
+URxvt.keysym.M-C-Up           : \033[1;7A
+URxvt.keysym.M-C-Down         : \033[1;7B
+URxvt.keysym.M-C-Right        : \033[1;7C
+URxvt.keysym.M-C-Left         : \033[1;7D
+URxvt.keysym.M-C-Page_Up      : \033[5;7~
+URxvt.keysym.M-C-Page_Down    : \033[6;7~
+URxvt.keysym.M-C-Home         : \033[1;7H
+URxvt.keysym.M-C-End          : \033[1;7F
+URxvt.keysym.M-C-S-Up         : \033[1;8A
+URxvt.keysym.M-C-S-Down       : \033[1;8B
+URxvt.keysym.M-C-S-Right      : \033[1;8C
+URxvt.keysym.M-C-S-Left       : \033[1;8D
+URxvt.keysym.M-C-S-Home       : \033[1;8H
+URxvt.keysym.M-C-S-End        : \033[1;8F
